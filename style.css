@@ -244,17 +244,19 @@ nav ul li a:hover::after{
 }
 .contact-right form{
     width: 100%;
+    
 }
 form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
     background: #262626;
-    padding: 15px 0;
+    padding: 15px 20px;
     color: #fff;
     font-size: 18px;
     border-radius: 6px;
     margin: 15px;
+    box-sizing: border-box;
 }
 form .btn2{
     padding: 14px 60px;
